@@ -1,0 +1,74 @@
+.poste-page{
+    h1 {
+        text-align: center;
+    }
+    nav{
+        .logo{
+            width: 25%;
+            height: fit-content;
+            margin-top: auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .poste{
+        display: flex;
+        justify-content: center;
+        .description{
+            margin-right: 3rem;
+            p{
+                max-width: 33rem;
+            }
+            a{
+                display: grid;
+                margin-top: 2rem;
+                img{
+                    width: 10rem;
+                }
+            }
+        }
+        .infposte{
+            display: grid;
+            height: fit-content;
+            width: 12rem;
+            .logop{
+                max-width: 70%;
+                margin-bottom: 3rem;
+            }
+            .inf{
+                line-height: 0;
+                margin-bottom: 1rem;
+            }
+            .contactposte{
+                line-height: 0;
+            }  
+            .postule{
+                display: grid;
+                justify-items: center;
+                .heart {
+                    border: none;
+                    background-color: transparent;
+                    margin: 0.5rem;
+                }
+            }
+        }
+
+    }
+    .postulez{
+        border: none;
+        padding: 0 12px;
+        border-radius: 10px;
+        background-color: $color-p;
+        color: #fff;
+        font-size: 1.5rem;
+        width: 8rem;
+        margin: 0.5rem;
+    }
+
+    .sugg{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0 15rem;
+    }
+}

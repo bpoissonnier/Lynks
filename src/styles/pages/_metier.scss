@@ -1,0 +1,70 @@
+.metier-page{
+  display: grid;
+  // justify-content: center;
+
+  .header nav {
+    margin: 1rem 5%
+  }
+  .header h1 {
+    width: 900px;
+    text-align: center;
+  }
+  .metierAcc{
+    display: flex;
+    justify-content: center;
+
+    button{
+      background-color: #1e6464;
+      color: white;
+      font-size: 1.4rem;
+    }
+      .acc2{
+        button{
+          background-color: #64beb4;
+        }
+      }
+      .acc3 {
+        button {
+          background-color: #94a496;
+          }
+      }
+          .acc4 {
+            button {
+              background-color: #ef7240;
+            }
+          }
+            .acc5 {
+              button {
+                background-color: #d2af46;
+              }
+            }
+              .acc6 {
+                button {
+                  background-color: #d6ae00;
+                }
+              }
+                .acc7 {
+                  button {
+                    background-color: #3b0064;
+                  }
+                }
+                  .acc8 {
+                    button {
+                      background-color: #690839;
+                    }
+                  }
+                    .acc9 {
+                      button {
+                        background-color: #871c64;
+                      }
+                    }
+
+      li {
+      
+        list-style: initial;
+        font-size: 1.3rem;
+      }
+
+  }
+
+}

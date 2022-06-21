@@ -1,0 +1,74 @@
+.deposer-page{
+    .pres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem 2rem;
+        div{
+            max-width: 57rem;
+            background-color: orange;
+            color: white;
+            padding: 0.5rem 4rem;
+            margin: 1rem 2rem;
+            z-index: 10;
+            margin-right: -8%;
+            line-height: 1;
+            h1{
+                font-size: 6rem;
+                margin-bottom: 0;
+            }
+            p{
+                font-size: 2rem;
+            }
+        }
+        img{
+            width: 40rem;
+        }
+    }
+    .formdepo{
+        display: grid;
+        justify-content: center;
+        margin: 6rem 0 8rem 0;
+        background-color: #f4f2f3;
+        padding: 2rem 0 2rem 0;
+        input{
+            margin: 1rem;
+        }
+        .contdp{
+            display: grid;
+            textarea{
+                margin:1rem;
+                width: 96%;
+            }
+            .btn{
+                background-color: $color-p;
+                color: $white;
+                font-size: 1.3rem;
+                &:hover{
+                    background: #ad988b;
+                    box-shadow: 0 0 10px #ecded5;
+                    font-size: 1.525rem;
+                }
+            }
+            
+
+        }
+        .dp2{
+            display: flex;
+            align-items: center;
+            .tp{
+                display: grid;
+                justify-items: center;
+                margin: 1rem;
+            }
+            .upcv{
+                display: grid;
+                justify-items: start;
+                input{
+                    margin: 0rem;
+                }
+            }
+        }
+    }
+
+}

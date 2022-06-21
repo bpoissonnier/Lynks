@@ -1,0 +1,256 @@
+.Cont{
+    
+    // border-radius: 50%;
+    margin: -100px 0 50px 0;
+    display: grid;
+    justify-content: center;
+
+    h1{
+        font-size: 5rem;
+        color: $color-p;
+        letter-spacing: 1px;
+        font-weight: normal;
+        line-height: 0.6em;
+        margin-bottom: 10px;
+
+    }
+
+    .expertises{
+        display: grid;
+        justify-content: center;
+        padding: 50px 0 70px 0;
+
+        p{
+            font-size: 2rem;
+            line-height: 0.7em;
+        }
+    }
+    .contain_card{
+        display: flex;
+        justify-content: center;
+        padding: 50px 0 50px 0;
+        .card{
+            flex: 1 0 25%;
+            min-width: 287px;
+            max-width: 297px;
+            height: 297px;
+            background: $color-p;
+            border-radius: 12px;
+            opacity: 0.6;
+
+            img{
+                height: 85px;
+                object-fit: cover;
+                object-position: top;
+                display: block;
+                margin: 46px auto 0 auto;
+                color: $white;
+            }
+
+            p{
+                padding: 25px 35px;
+                // text-align: left;
+                font-size: 2.4rem;
+                line-height: 0.7em;
+                color: $white;
+            }
+        }
+        .card1{
+            margin: -73px -90px 35px 0;
+            text-align: left;
+            z-index: 1;
+        }
+        .card2{
+                background-color: #919090;
+                text-align: center;
+                opacity: 1;
+        }
+        .card3{
+            text-align: right;
+            margin: 108px -13px 7px -80px;
+            p{
+                margin-right: 3rem;
+            }
+            
+        }
+    }
+
+    .txtcont{
+        display: grid;
+        justify-content: center;
+
+        p{
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+            font-weight: normal;
+            line-height: 0.7em;
+            margin-bottom: 10px;
+
+            span{
+                color: $color-3;
+            }
+        }
+        p:nth-last-child(1){
+
+            letter-spacing: 1px;
+            font-family: $font-2;
+            line-height: 0.5em;
+            margin-bottom: 10px;
+
+      }
+    }
+    button{   
+        margin: 4.5rem auto 5.5rem auto;
+        background-color: #919090;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 20px;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 0.6em;
+        color: white;
+        cursor: pointer;
+        p{
+            margin-bottom: 0;
+        }
+    }
+
+
+    .travaille{
+        // margin: auto;
+        // background-color: #f4f2f3;
+
+        .intro_t{
+            display: grid;
+            justify-content: center;
+            h1{
+                margin-bottom: 1.7rem;
+                margin-inline-start: 1rem;
+            }
+            p{
+                font-family: "font-2",
+                sans-serif;
+                line-height: 0.7em;
+                font-size: 2.6rem;
+                margin-bottom: 1.5rem;
+                margin-inline-start: 1rem;
+            }
+        }
+        .help-icon{
+            p{
+                text-align: end;
+                margin-inline-end: 21rem;
+                margin-inline-start: 0;
+            }
+            img{
+                width: 8rem;
+                margin: 4rem auto 1rem 7rem;
+            }
+        }
+        .imgtr{
+            margin: -33rem auto auto 48rem;
+            width: 30rem;
+            position: relative;
+            margin-bottom: 4rem;
+        }
+        .nombre{
+            display: flex;
+            justify-content: center;
+            margin: auto 20px;
+            div{
+                margin: 20px 18px;
+                text-align: center;
+                color: $color-p;
+                font-size: 1.4rem;
+                line-height: 1;
+                h1{
+                    font-size: 9rem;
+                }
+                h3{
+                    margin-bottom: 0;
+                    line-height: 0.5;
+                }
+            }
+        }
+    }
+
+    .offre{
+        margin:2rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            margin: 2rem auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: $black;
+        }
+        h1{
+            margin-top: 4rem;
+            color: $black;
+        }
+        p{
+            font-size: 3rem;
+            font-family: 'font-2';
+            margin-top: -2rem;
+        }
+        .imgoffre1{
+            width: 11%;
+            margin: 17px 25px 13px -93px;
+        }
+        .imgoffre2{
+            width: 9%;
+            margin: 15px -100px 27px;
+        }
+
+    }
+
+    .offrecli {
+        h2 {
+            font-size: 4.5rem;
+            line-height: 3rem;
+            color: $color-1;
+        }
+            
+        p {
+            font-size: 2.5rem;
+            font-family: "font-2";
+        }
+    }
+    .client{
+        text-align: center;
+        margin: 1rem 0 4rem;
+        .logo{
+            width: 15%;
+            margin: 10px;
+        }
+        .logo:nth-last-child(2){
+            width: 9%;
+        }
+        .logo:nth-last-child(1){
+            width: 17%;
+            margin-left: -5px;
+        }
+    }
+    .video{
+        display: grid;
+        justify-content: center; 
+    }
+
+
+
+    
+}
+@media (min-width:1500px) {
+    .Cont .travaille .imgtr {
+        margin: -33rem auto auto 60rem;
+    }
+}
+@media (min-width:1900px) {
+    .Cont .travaille .imgtr {
+    margin: -33rem auto auto 65rem;
+}
+}

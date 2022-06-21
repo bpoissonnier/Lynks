@@ -1,0 +1,26 @@
+.recruteur-page{
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        font-size: 3rem;
+
+    }
+   .log{
+       display: grid;
+       justify-items: center;
+       margin:2rem 8rem 15rem;
+
+        .btn{
+            background-color: $color-p;
+            border-color: $color-p;
+        }
+        Form{
+            width: 32%;
+            padding: 0rem 2rem;
+            // border: solid 3px orange;
+            // border-radius: 20px;
+        }
+    }
+}

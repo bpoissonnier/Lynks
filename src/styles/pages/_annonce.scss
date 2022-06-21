@@ -1,0 +1,150 @@
+.annonce-page{
+    
+    overflow: hidden;
+
+    .header .form-component form input[type=text] {
+            border: 1px solid #919090;
+        }
+    .header .form-component form input[type=text] {
+        border: 1px solid #919090;
+    }
+
+    .offre{
+        margin: 2rem 1rem;
+        border-bottom: solid 1px $color-p;
+        h3{
+            margin: 1rem 0;
+        }
+    }
+    .btnoffre{
+        display: grid;
+        justify-content: end;
+        align-items: center;
+        div{
+            display: grid;
+            justify-items: center;
+        }
+        img{
+            margin: 2rem 0 0.5rem 0;
+        }
+        .heart {
+            border: none;
+            background-color: transparent;
+            margin: 0.5rem;
+        }
+        .linkannonce{
+            border: none;
+            padding: 0 12px;
+            border-radius: 10px;
+            background-color: $color-p;
+            color: #fff;
+            font-size: 1.5rem;
+            width: 8rem;
+            margin: 0.5rem;
+        }
+    }
+    .inf{
+        display: flex;
+        line-height: 0.2rem;
+        align-items: center;
+    }
+    .description{
+        width: 28rem;
+        line-height: 1rem;
+    }
+    .filter{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 5rem;
+        border: solid 1px $color-p;
+        width: auto;
+        height: fit-content;
+        padding: 3rem 1rem 0rem;
+        input[type=checkbox] {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                width: 18px;
+                height: 18px;
+                background-clip: content-box;
+                border: 1.5px solid $color-p;
+                background-color: #fff;
+        
+                &:checked {
+                    background-color: $color-p;
+                }
+        
+                &:focus {
+                    outline: none !important;
+                }
+            }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 0;
+            font-size: 1.4rem;
+            margin-right: 2rem;
+        }
+        h3{
+            background-color: $color-p;
+            border-radius: 2rem;
+            padding: 4px;
+                margin: 1rem;
+            color: $white;
+            font-size: 1.5rem;
+        }
+        input{
+            margin-left: 1rem;
+        }
+        .salaire{
+            padding: 1rem;
+        }
+
+        button{
+            background-color: black;
+            color: white;
+            font-size: 1.5rem;
+            padding: 0.2rem;
+            margin: 1rem;
+        }
+    }
+
+    .infA{
+        line-height: 1;
+       p{
+         margin: 0;  
+       } 
+    }
+    .cont-annonce{
+        // padding: 1rem 14rem;
+        margin: 0rem 0rem 0rem -5rem;
+        // .row{
+        //     margin-bottom: 8rem;
+        // }
+        // .linkannonce{
+        //     border: none;
+        //     padding: 0px 8px;
+        //     border-radius: 8px;
+        //     background-color: #ECDED5;
+        //     font-size: 1.5rem;
+        //     margin-right: 0.5rem;
+        // }
+        // .heart{
+        //     border: none;
+        //     background-color: transparent;
+        //     margin: 0.5rem;
+        // }
+    }
+
+
+}
+
+
+@media screen and (max-width: 1500px) {
+    .lastoffre {
+        .offre{
+            width: 40rem;
+        }
+    }   
+}

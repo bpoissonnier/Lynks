@@ -1,0 +1,71 @@
+.contact{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 0.4fr);
+    margin: 5rem 10rem 5rem 10rem;
+    .contactinfo{
+        margin-left: 2rem;
+        h2{
+            border-bottom: 1px solid;
+            width: 12rem;
+            margin-bottom: 1.5rem;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            p{
+                margin: 0 0 0 10px;
+                color: $color-p;
+                line-height: 10px;
+            }
+            a{
+                text-decoration: none;
+                margin: 0 0 0 10px;
+                color: #E69940;
+                line-height: 10px;
+            }
+        }
+    }
+    .formcontact{
+        margin-right: 20%;
+    }
+    .imgPhone{
+        width: 5%;
+        margin-left: 1%;
+    }
+    img{
+        width: 7%;
+        
+    }
+    form{
+        display: grid;
+        gap: 1rem;
+
+            input{
+                border: 1px solid $color-p;
+            }
+            input::placeholder {
+                color: $color-p;
+                padding-left: 10px;
+            }
+            textarea{
+                border: 1px solid $color-p;
+
+            }
+            textarea::placeholder{
+                color: $color-p;
+                padding-left: 10px;
+            }
+            button {
+                margin-left: auto;
+                background-color: #E69940;
+                color: #eeeeee;
+                border: none;
+                border-radius: 8px;
+                width: 42%;
+                margin-right: 10px;
+            }
+    }
+
+}

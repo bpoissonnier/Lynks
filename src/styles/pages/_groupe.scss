@@ -1,0 +1,30 @@
+.groupe-page{
+    h1{
+        text-align: center;
+    }
+    .contgroup{
+        display: flex;
+        margin-bottom: 10rem;
+        .description{
+            padding: 2rem 8rem;
+            font-size: 1.5rem;
+            h1{
+                text-align: left;
+                font-size: 4rem;
+            }
+            
+            li{
+                list-style-type: disc;
+            }
+        }
+        .colimg{
+            background-color: bisque;
+            margin-left: 0rem;
+            padding: 20rem 1rem;
+            img{
+                width: 74%;
+                margin: -17rem 0rem 0rem -8rem;
+            }
+        }
+    }
+}
